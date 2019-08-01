@@ -27,17 +27,30 @@ class ResultsFragment : Fragment() {
             R.layout.fragment_results, container, false
         )
 
-        val userChoice: RPS = arguments?.get("USER_CHOICE") as RPS
+        val userChoice: RPS = arguments?.get(getString(R.string.arg_user_choice)) as RPS
+        val aiChoice = getAiChoice()
 
         binding.textViewPlayerChoice.text = userChoice.name
+        binding.textViewAiChoice.text = aiChoice.name
+        binding.textViewResult.text = getResult(userChoice, aiChoice)
 
         binding.buttonPlayAgain.setOnClickListener {
             findNavController().navigate(R.id.action_global_startFragment)
         }
-//        binding.textViewResult.text =
-//        binding.textViewPlayerChoice.text =
-//        binding.textViewAiChoice.text =
 
         return binding.root
+    }
+
+    private fun getResult(userChoice: RPS, aiChoice: RPS): String {
+        return when (userChoice) {
+            aiChoice -> getString(R.string.tie_result)
+            RPS.ROCK -> if (aiChoice ==RPS.PAPER) getString(R.string.lost_result) else getString(R.string.win_result)
+            RPS.PAPER -> if (aiChoice == RPS.SCISSORS) getString(R.string.lost_result) else getString(R.string.win_result)
+            RPS.SCISSORS -> if (aiChoice == RPS.ROCK) getString(R.string.lost_result) else getString(R.string.win_result)
+        }
+    }
+
+    private fun getAiChoice(): RPS {
+        return arrayOf(RPS.ROCK, RPS.PAPER, RPS.SCISSORS).random()
     }
 }

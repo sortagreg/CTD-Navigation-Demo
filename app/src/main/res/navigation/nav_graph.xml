@@ -30,7 +30,7 @@
         android:label="ResultsFragment"
         tools:layout="@layout/fragment_results">
         <argument
-            android:name="USER_CHOICE"
+            android:name="@string/arg_user_choice"
             app:argType="com.example.ctdnavigagtiondemo.models.RPS" />
     </fragment>
     <action

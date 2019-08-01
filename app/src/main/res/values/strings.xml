@@ -3,4 +3,8 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tie_result">You tied!</string>
+    <string name="lost_result">You loose!!</string>
+    <string name="win_result">You Won!!</string>
+    <string name="arg_user_choice">USER_CHOICE</string>
 </resources>
