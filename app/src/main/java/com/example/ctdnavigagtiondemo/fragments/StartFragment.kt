@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
+import androidx.navigation.fragment.findNavController
 import com.example.ctdnavigagtiondemo.R
 import com.example.ctdnavigagtiondemo.databinding.FragmentStartBinding
 
@@ -29,7 +30,7 @@ class StartFragment : Fragment() {
         )
 
         binding.buttonPlayGame.setOnClickListener {
-
+            findNavController().navigate(R.id.action_startFragment_to_playGameFragment)
         }
         return binding.root
     }

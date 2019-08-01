@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
+import androidx.navigation.fragment.findNavController
 import com.example.ctdnavigagtiondemo.R
 import com.example.ctdnavigagtiondemo.databinding.FragmentResultsBinding
 
@@ -26,7 +27,7 @@ class ResultsFragment : Fragment() {
         )
 
         binding.buttonPlayAgain.setOnClickListener {
-
+            findNavController().navigate(R.id.action_global_startFragment)
         }
 
 //        binding.textViewResult.text =
