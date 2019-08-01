@@ -6,10 +6,12 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.os.bundleOf
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.fragment.findNavController
 import com.example.ctdnavigagtiondemo.R
 import com.example.ctdnavigagtiondemo.databinding.FragmentPlayGameBinding
+import com.example.ctdnavigagtiondemo.models.RPS
 
 class PlayGameFragment : Fragment() {
 
@@ -26,18 +28,19 @@ class PlayGameFragment : Fragment() {
         )
 
         binding.buttonRock.setOnClickListener {
-            navigate()
+            navigate(RPS.ROCK)
         }
         binding.buttonPaper.setOnClickListener {
-            navigate()
+            navigate(RPS.PAPER)
         }
         binding.buttonScissors.setOnClickListener {
-            navigate()
+            navigate(RPS.SCISSORS)
         }
         return binding.root
     }
 
-    private fun navigate() {
-        findNavController().navigate(R.id.action_playGameFragment_to_resultsFragment)
+    private fun navigate(userChoice: RPS) {
+        val bundle = bundleOf("USER_CHOICE" to userChoice)
+        findNavController().navigate(R.id.action_playGameFragment_to_resultsFragment, bundle)
     }
 }

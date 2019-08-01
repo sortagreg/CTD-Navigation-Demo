@@ -10,6 +10,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.navigation.fragment.findNavController
 import com.example.ctdnavigagtiondemo.R
 import com.example.ctdnavigagtiondemo.databinding.FragmentResultsBinding
+import com.example.ctdnavigagtiondemo.models.RPS
 
 
 class ResultsFragment : Fragment() {
@@ -26,10 +27,13 @@ class ResultsFragment : Fragment() {
             R.layout.fragment_results, container, false
         )
 
+        val userChoice: RPS = arguments?.get("USER_CHOICE") as RPS
+
+        binding.textViewPlayerChoice.text = userChoice.name
+
         binding.buttonPlayAgain.setOnClickListener {
             findNavController().navigate(R.id.action_global_startFragment)
         }
-
 //        binding.textViewResult.text =
 //        binding.textViewPlayerChoice.text =
 //        binding.textViewAiChoice.text =
