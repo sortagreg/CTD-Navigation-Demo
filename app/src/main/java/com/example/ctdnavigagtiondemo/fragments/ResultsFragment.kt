@@ -2,37 +2,31 @@ package com.example.ctdnavigagtiondemo.fragments
 
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.databinding.DataBindingUtil
+import androidx.fragment.app.Fragment
 import com.example.ctdnavigagtiondemo.R
-import com.example.ctdnavigagtiondemo.databinding.FragmentResultsBinding
+import kotlinx.android.synthetic.main.fragment_results.*
 
 
 class ResultsFragment : Fragment() {
 
-    private lateinit var binding: FragmentResultsBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        binding = DataBindingUtil.inflate(
-            inflater,
+
+        return inflater.inflate(
             R.layout.fragment_results, container, false
         )
+    }
 
-        binding.buttonPlayAgain.setOnClickListener {
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        buttonPlayAgain.setOnClickListener {
 
         }
-
-//        binding.textViewResult.text =
-//        binding.textViewPlayerChoice.text =
-//        binding.textViewAiChoice.text =
-
-        return binding.root
     }
 }
