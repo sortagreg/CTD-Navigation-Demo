@@ -4,4 +4,10 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="USER_CHOICE">user_choice</string>
+    <string name="COMPUTER_CHOICE">computer_choice</string>
+    <string name="win_message">You win!</string>
+    <string name="loss_message">You lose!</string>
+    <string name="tie_message">It\'s a tie!</string>
 </resources>
+
+

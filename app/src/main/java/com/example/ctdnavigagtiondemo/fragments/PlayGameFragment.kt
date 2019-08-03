@@ -10,6 +10,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.ctdnavigagtiondemo.R
 import com.example.ctdnavigagtiondemo.rockpaperscissors.RPS
+import com.example.ctdnavigagtiondemo.rockpaperscissors.getComputerChoice
 import kotlinx.android.synthetic.main.fragment_play_game.*
 
 class PlayGameFragment : Fragment() {
@@ -39,7 +40,10 @@ class PlayGameFragment : Fragment() {
     }
 
     private fun navigate_results(choice: RPS) {
-        val bundle = bundleOf(getString(R.string.USER_CHOICE) to choice)
+        val bundle = bundleOf(
+            getString(R.string.USER_CHOICE) to choice,
+            getString(R.string.COMPUTER_CHOICE) to getComputerChoice()
+        )
         findNavController().navigate(R.id.action_playGameFragment_to_resultsFragment, bundle)
     }
 }
