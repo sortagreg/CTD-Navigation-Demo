@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.ctdnavigagtiondemo.fragments.StartFragment"
+        android:label="Rock Paper Scissors"
+        tools:layout="@layout/fragment_start" >
+        <action
+            android:id="@+id/action_startFragment_to_playGameFragment"
+            app:destination="@id/playGameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playGameFragment"
+        android:name="com.example.ctdnavigagtiondemo.fragments.PlayGameFragment"
+        android:label="Play"
+        tools:layout="@layout/fragment_play_game">
+        <action
+            android:id="@+id/action_playGameFragment_to_resultsFragment"
+            app:destination="@id/resultsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultsFragment"
+        android:name="com.example.ctdnavigagtiondemo.fragments.ResultsFragment"
+        android:label="Results"
+        tools:layout="@layout/fragment_results" >
+        <argument
+            android:name="@string/USER_CHOICE"
+            app:argType="com.example.ctdnavigagtiondemo.models.RPS" />
+        <action
+            android:id="@+id/action_resultsFragment_to_paintingFragment"
+            app:destination="@id/paintingFragment" />
+    </fragment>
+    <action
+        android:id="@+id/action_global_startFragment"
+        app:destination="@id/startFragment"
+        app:popUpTo="@+id/startFragment" />
+    <fragment
+        android:id="@+id/paintingFragment"
+        android:name="com.example.ctdnavigagtiondemo.fragments.PaintingFragment"
+        android:label="Painting"
+        tools:layout="@layout/fragment_painting" />
+</navigation>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".fragments.PaintingFragment">
+
+    <TextView
+        android:id="@+id/red_box"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/margin_medium"
+        android:background="#FF0000"
+        app:layout_constraintBottom_toTopOf="@+id/white_box3"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_weight="7"
+        app:layout_constraintStart_toEndOf="@+id/white_box1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/white_box1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="@dimen/margin_medium"
+        android:layout_marginBottom="@dimen/margin_large"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/white_box2"
+        app:layout_constraintEnd_toStartOf="@+id/red_box"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/white_box2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="@dimen/margin_medium"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/red_box"
+        app:layout_constraintEnd_toStartOf="@+id/red_box"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/white_box1" />
+
+    <TextView
+        android:id="@+id/blue_box"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:background="#2962FF"
+        app:layout_constraintDimensionRatio="h,4:5"
+        app:layout_constraintEnd_toEndOf="@+id/white_box2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/white_box2"
+        app:layout_constraintVertical_weight="2" />
+
+    <TextView
+        android:id="@+id/yellow_box"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#FFE139"
+        app:layout_constraintBottom_toBottomOf="@+id/blue_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/white_box4"
+        app:layout_constraintTop_toBottomOf="@+id/white_box4" />
+
+    <TextView
+        android:id="@+id/white_box3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_marginEnd="@dimen/margin_medium"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/blue_box"
+        app:layout_constraintEnd_toStartOf="@+id/white_box4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="9"
+        app:layout_constraintStart_toEndOf="@+id/blue_box"
+        app:layout_constraintTop_toTopOf="@+id/blue_box" />
+
+    <TextView
+        android:id="@+id/white_box4"
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_marginBottom="@dimen/margin_large"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/yellow_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/white_box3"
+        app:layout_constraintTop_toTopOf="@+id/blue_box" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
