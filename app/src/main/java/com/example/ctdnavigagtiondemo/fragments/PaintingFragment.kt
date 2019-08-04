@@ -14,7 +14,7 @@ import com.example.ctdnavigagtiondemo.R
  * A simple [Fragment] subclass.
  *
  */
-class paintingFragment : Fragment() {
+class PaintingFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
