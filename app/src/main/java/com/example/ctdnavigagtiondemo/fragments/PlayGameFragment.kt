@@ -40,7 +40,7 @@ class PlayGameFragment : Fragment() {
     private fun navigate(userChoise:RPS) {
         val bundle = bundleOf(getString(R.string.USER_CHOISE) to userChoise)
 
-        findNavController().navigate(R.id.action_playGameFragment2_to_resultsFragment, bundle)
+        findNavController().navigate(R.id.action_playGameFragment_to_resultsFragment, bundle)
     }
 
 }

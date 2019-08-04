@@ -11,7 +11,7 @@
 
         <!-- TODO: Update blank fragment layout -->
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/white1"
             style="@style/TitleText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -34,7 +34,7 @@
             app:layout_constraintEnd_toStartOf="@+id/buttonPaper"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+            app:layout_constraintTop_toBottomOf="@+id/white1" />
 
         <Button
             android:id="@+id/buttonPaper"

@@ -29,7 +29,7 @@ class StartFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         buttonPlayGame.setOnClickListener {
-            findNavController().navigate(R.id.action_startFragment_to_playGameFragment2)
+            findNavController().navigate(R.id.action_startFragment_to_playGameFragment)
         }
     }
 
