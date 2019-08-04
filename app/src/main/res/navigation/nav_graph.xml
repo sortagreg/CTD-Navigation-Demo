@@ -41,7 +41,7 @@
         app:popUpTo="@+id/startFragment" />
     <fragment
         android:id="@+id/paintingFragment"
-        android:name="com.example.ctdnavigagtiondemo.fragments.fragment_credit"
+        android:name="com.example.ctdnavigagtiondemo.fragments.PaintingFragment"
         android:label="Painting"
-        tools:layout="@layout/fragment_painting" />
+        tools:layout="@layout/fragment_credit" />
 </navigation>
