@@ -44,9 +44,9 @@ class ResultsFragment : Fragment() {
     }
 
     private fun findResult(player1: RPS, player2: RPS): String = when (player1) {
-        player2 -> "You tied!"
-        RPS.ROCK -> if (player2 == RPS.PAPER) "You lost!" else "You won!"
-        RPS.PAPER -> if (player2 == RPS.SCISSORS) "You lost!" else "You won!"
-        RPS.SCISSORS -> if (player2 == RPS.ROCK) "You lost!" else "You won!"
+        player2 -> getString(R.string.tied)
+        RPS.ROCK -> if (player2 == RPS.PAPER) getString(R.string.lost) else getString(R.string.won)
+        RPS.PAPER -> if (player2 == RPS.SCISSORS) getString(R.string.lost) else getString(R.string.won)
+        RPS.SCISSORS -> if (player2 == RPS.ROCK) getString(R.string.lost) else getString(R.string.won)
     }
 }
