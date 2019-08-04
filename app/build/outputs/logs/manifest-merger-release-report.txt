@@ -1,0 +1,216 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0-beta02] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\0657ce9637fda21524b555f5779e24c7\navigation-ui-ktx-2.1.0-beta02\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.1.0-beta02] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\fc5aaa3019bddd0c7a07da183d5da1b9\jetified-navigation-ui-2.1.0-beta02\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\7b1acde3b9b1b898901b2b57f6b81959\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\86d786628a46d714b5d5a3f435d4b18f\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.0.2] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\146a4907b13abd36fa83b415a61a8706\core-ktx-1.0.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\dab56ec8f8510e6b6f1c5b4293547a9b\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\05f8eaabdb22f54a03d8fde846438427\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0-beta02] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\aed6787dbe4e84be4042a01e5cbab44d\navigation-fragment-ktx-2.1.0-beta02\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0-beta02] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\3da4a6dff441c47836555869e9f92c9a\navigation-runtime-ktx-2.1.0-beta02\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.1.0-rc03] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\22030552125ba5b77ef7e529643f7b0c\fragment-ktx-1.1.0-rc03\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.1.0-beta02] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\14797078e8f1e6b060e6e80e4a68942a\navigation-fragment-2.1.0-beta02\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0-rc03] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\57ed71aa794bbb7428bef451a1527db3\fragment-1.1.0-rc03\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.1.0-beta02] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\02756aa120211fd7d4a2ddce617bc5a6\navigation-common-ktx-2.1.0-beta02\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.0.0-rc01] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\02dbc710ceb12fbef801ad42512b9c53\activity-ktx-1.0.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0-rc01] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\0ce414eb275188d573cc0cf653ed7329\lifecycle-viewmodel-ktx-2.1.0-rc01\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\ffd29fd1d9ee90ec797ece64427e9db2\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\e78e6dc6fe98949a396e34c36fd7af49\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\762a0ea65542f67a24ffd2dfc6c9de33\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\b1e7553a1a6e33b2c6e6f4bf97d5719c\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\56250c83798e2f98d017e81adffd927c\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\645f3fdfb072fbae1a0ef23ad4eadf11\vectordrawable-1.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\2f6189fa5a2eef12d93d5bb19f20ce14\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\f817662b13e00b8f64a947efeaeb8d3c\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\5f9e20088b5efb6987d37ef7aa536cfd\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.1.0-beta02] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\d1f2ac8daf308257a5a9016424d64661\navigation-runtime-2.1.0-beta02\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0-rc01] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\97bf527e6cf1e6e50148ce7bcbac4076\activity-1.0.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\90f12caf2dec8c6d71d087477f174621\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\383e148317b6aaf633cbe4986e521033\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\5afe5fd4fcc3257cec73fdc12591401d\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\e42e6a54f92ad3b54fcd6fbec7d60dd3\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\72f4d0f2038331677214349dc3da0b00\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\e49d1cdb86494252d545d9023d283fbf\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.1.0-beta02] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\31e55358a93d5f9c79863368735b717e\navigation-common-2.1.0-beta02\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\b70a4f9556458d66eb5299b7dfe962ae\transition-1.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0-rc01] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\89b5b62e3e556fa679474f9cb336c5be\core-1.1.0-rc01\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\14c6acb5b477414a5182c631a0c55619\versionedparcelable-1.1.0-rc01\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\51f4c93a8c9d719ffc603a54f43a65a1\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\a2efaca92af11bb4292ce30bf64d66fb\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\f6fac60bef619a83035a723460a822d6\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\a0bce7e21ff45a9d4d0114ae91e993fe\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\cac1f3802e7e17dd3526de95630adc6e\lifecycle-viewmodel-2.1.0-rc01\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\052ff21fa9a408c59c34dff642eef3c9\lifecycle-runtime-2.1.0-rc01\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\00e9a1fad785f33b4f49daa73cd10403\savedstate-1.0.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\2fa31dfaf163729b5f375f784ca38360\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\4f7f0dac7907cfc26e5573406d1d6a0f\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\262ec721a99bdf75bb81aa87be79e200\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\d474cf807fd7cc7e86afa42221c01f71\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml:3:11-51
+		INJECTED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\7b1acde3b9b1b898901b2b57f6b81959\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\7b1acde3b9b1b898901b2b57f6b81959\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\dab56ec8f8510e6b6f1c5b4293547a9b\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\dab56ec8f8510e6b6f1c5b4293547a9b\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.1.0-rc01] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\89b5b62e3e556fa679474f9cb336c5be\core-1.1.0-rc01\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0-rc01] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\89b5b62e3e556fa679474f9cb336c5be\core-1.1.0-rc01\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\14c6acb5b477414a5182c631a0c55619\versionedparcelable-1.1.0-rc01\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\14c6acb5b477414a5182c631a0c55619\versionedparcelable-1.1.0-rc01\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0-rc01] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\89b5b62e3e556fa679474f9cb336c5be\core-1.1.0-rc01\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml:10:13-39
+	android:label
+		ADDED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml:8:13-45
+	android:roundIcon
+		ADDED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml:9:13-58
+	android:icon
+		ADDED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml:7:13-47
+	android:allowBackup
+		ADDED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml:6:13-39
+	android:theme
+		ADDED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml:11:13-44
+activity#com.example.ctdnavigagtiondemo.MainActivity
+ADDED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml:14:17-68
+	android:name
+		ADDED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml:16:17-76
+	android:name
+		ADDED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml
+MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0-beta02] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\0657ce9637fda21524b555f5779e24c7\navigation-ui-ktx-2.1.0-beta02\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0-beta02] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\0657ce9637fda21524b555f5779e24c7\navigation-ui-ktx-2.1.0-beta02\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.1.0-beta02] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\fc5aaa3019bddd0c7a07da183d5da1b9\jetified-navigation-ui-2.1.0-beta02\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.1.0-beta02] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\fc5aaa3019bddd0c7a07da183d5da1b9\jetified-navigation-ui-2.1.0-beta02\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\7b1acde3b9b1b898901b2b57f6b81959\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\7b1acde3b9b1b898901b2b57f6b81959\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\86d786628a46d714b5d5a3f435d4b18f\appcompat-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\86d786628a46d714b5d5a3f435d4b18f\appcompat-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.0.2] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\146a4907b13abd36fa83b415a61a8706\core-ktx-1.0.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.0.2] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\146a4907b13abd36fa83b415a61a8706\core-ktx-1.0.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\dab56ec8f8510e6b6f1c5b4293547a9b\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\dab56ec8f8510e6b6f1c5b4293547a9b\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\05f8eaabdb22f54a03d8fde846438427\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\05f8eaabdb22f54a03d8fde846438427\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0-beta02] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\aed6787dbe4e84be4042a01e5cbab44d\navigation-fragment-ktx-2.1.0-beta02\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0-beta02] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\aed6787dbe4e84be4042a01e5cbab44d\navigation-fragment-ktx-2.1.0-beta02\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0-beta02] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\3da4a6dff441c47836555869e9f92c9a\navigation-runtime-ktx-2.1.0-beta02\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0-beta02] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\3da4a6dff441c47836555869e9f92c9a\navigation-runtime-ktx-2.1.0-beta02\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.1.0-rc03] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\22030552125ba5b77ef7e529643f7b0c\fragment-ktx-1.1.0-rc03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.1.0-rc03] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\22030552125ba5b77ef7e529643f7b0c\fragment-ktx-1.1.0-rc03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.1.0-beta02] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\14797078e8f1e6b060e6e80e4a68942a\navigation-fragment-2.1.0-beta02\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.1.0-beta02] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\14797078e8f1e6b060e6e80e4a68942a\navigation-fragment-2.1.0-beta02\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0-rc03] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\57ed71aa794bbb7428bef451a1527db3\fragment-1.1.0-rc03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0-rc03] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\57ed71aa794bbb7428bef451a1527db3\fragment-1.1.0-rc03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.1.0-beta02] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\02756aa120211fd7d4a2ddce617bc5a6\navigation-common-ktx-2.1.0-beta02\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.1.0-beta02] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\02756aa120211fd7d4a2ddce617bc5a6\navigation-common-ktx-2.1.0-beta02\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.0.0-rc01] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\02dbc710ceb12fbef801ad42512b9c53\activity-ktx-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.0.0-rc01] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\02dbc710ceb12fbef801ad42512b9c53\activity-ktx-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0-rc01] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\0ce414eb275188d573cc0cf653ed7329\lifecycle-viewmodel-ktx-2.1.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0-rc01] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\0ce414eb275188d573cc0cf653ed7329\lifecycle-viewmodel-ktx-2.1.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\ffd29fd1d9ee90ec797ece64427e9db2\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\ffd29fd1d9ee90ec797ece64427e9db2\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\e78e6dc6fe98949a396e34c36fd7af49\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\e78e6dc6fe98949a396e34c36fd7af49\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\762a0ea65542f67a24ffd2dfc6c9de33\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\762a0ea65542f67a24ffd2dfc6c9de33\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\b1e7553a1a6e33b2c6e6f4bf97d5719c\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\b1e7553a1a6e33b2c6e6f4bf97d5719c\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\56250c83798e2f98d017e81adffd927c\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\56250c83798e2f98d017e81adffd927c\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\645f3fdfb072fbae1a0ef23ad4eadf11\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\645f3fdfb072fbae1a0ef23ad4eadf11\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\2f6189fa5a2eef12d93d5bb19f20ce14\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\2f6189fa5a2eef12d93d5bb19f20ce14\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\f817662b13e00b8f64a947efeaeb8d3c\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\f817662b13e00b8f64a947efeaeb8d3c\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\5f9e20088b5efb6987d37ef7aa536cfd\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\5f9e20088b5efb6987d37ef7aa536cfd\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.1.0-beta02] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\d1f2ac8daf308257a5a9016424d64661\navigation-runtime-2.1.0-beta02\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.1.0-beta02] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\d1f2ac8daf308257a5a9016424d64661\navigation-runtime-2.1.0-beta02\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0-rc01] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\97bf527e6cf1e6e50148ce7bcbac4076\activity-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0-rc01] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\97bf527e6cf1e6e50148ce7bcbac4076\activity-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\90f12caf2dec8c6d71d087477f174621\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\90f12caf2dec8c6d71d087477f174621\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\383e148317b6aaf633cbe4986e521033\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\383e148317b6aaf633cbe4986e521033\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\5afe5fd4fcc3257cec73fdc12591401d\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\5afe5fd4fcc3257cec73fdc12591401d\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\e42e6a54f92ad3b54fcd6fbec7d60dd3\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\e42e6a54f92ad3b54fcd6fbec7d60dd3\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\72f4d0f2038331677214349dc3da0b00\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\72f4d0f2038331677214349dc3da0b00\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\e49d1cdb86494252d545d9023d283fbf\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\e49d1cdb86494252d545d9023d283fbf\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.1.0-beta02] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\31e55358a93d5f9c79863368735b717e\navigation-common-2.1.0-beta02\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.1.0-beta02] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\31e55358a93d5f9c79863368735b717e\navigation-common-2.1.0-beta02\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\b70a4f9556458d66eb5299b7dfe962ae\transition-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\b70a4f9556458d66eb5299b7dfe962ae\transition-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-rc01] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\89b5b62e3e556fa679474f9cb336c5be\core-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0-rc01] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\89b5b62e3e556fa679474f9cb336c5be\core-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\14c6acb5b477414a5182c631a0c55619\versionedparcelable-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\14c6acb5b477414a5182c631a0c55619\versionedparcelable-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\51f4c93a8c9d719ffc603a54f43a65a1\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\51f4c93a8c9d719ffc603a54f43a65a1\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\a2efaca92af11bb4292ce30bf64d66fb\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\a2efaca92af11bb4292ce30bf64d66fb\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\f6fac60bef619a83035a723460a822d6\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\f6fac60bef619a83035a723460a822d6\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\a0bce7e21ff45a9d4d0114ae91e993fe\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\a0bce7e21ff45a9d4d0114ae91e993fe\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\cac1f3802e7e17dd3526de95630adc6e\lifecycle-viewmodel-2.1.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\cac1f3802e7e17dd3526de95630adc6e\lifecycle-viewmodel-2.1.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\052ff21fa9a408c59c34dff642eef3c9\lifecycle-runtime-2.1.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\052ff21fa9a408c59c34dff642eef3c9\lifecycle-runtime-2.1.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\00e9a1fad785f33b4f49daa73cd10403\savedstate-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\00e9a1fad785f33b4f49daa73cd10403\savedstate-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\2fa31dfaf163729b5f375f784ca38360\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\2fa31dfaf163729b5f375f784ca38360\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\4f7f0dac7907cfc26e5573406d1d6a0f\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\4f7f0dac7907cfc26e5573406d1d6a0f\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\262ec721a99bdf75bb81aa87be79e200\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\262ec721a99bdf75bb81aa87be79e200\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\d474cf807fd7cc7e86afa42221c01f71\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\yunqi\.gradle\caches\transforms-2\files-2.1\d474cf807fd7cc7e86afa42221c01f71\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yunqi\Documents\GitHub\CTD-Navigation-Demo\app\src\main\AndroidManifest.xml
