@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_startFragment_to_playGameFragment"
             app:destination="@id/playGameFragment" />
+        <action
+            android:id="@+id/action_startFragment_to_pietFragment"
+            app:destination="@id/pietFragment" />
     </fragment>
     <fragment
         android:id="@+id/resultsFragment"
@@ -39,4 +42,8 @@
         android:id="@+id/action_global_startFragment"
         app:destination="@id/startFragment"
         app:popUpTo="@+id/startFragment" />
+    <fragment
+        android:id="@+id/pietFragment"
+        android:name="com.example.ctdnavigagtiondemo.fragments.PietFragment"
+        android:label="PietFragment" />
 </navigation>
