@@ -96,7 +96,7 @@
         android:id="@+id/textView12"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="19dp"
         android:background="#EEE064"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/textView9"
