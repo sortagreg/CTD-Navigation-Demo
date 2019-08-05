@@ -1,12 +1,16 @@
 package com.example.ctdnavigagtiondemo.fragments
 
-
+import kotlin.random.Random
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.example.ctdnavigagtiondemo.R
+import com.example.ctdnavigagtiondemo.models.AIRPS
+import com.example.ctdnavigagtiondemo.models.RPS
 import kotlinx.android.synthetic.main.fragment_results.*
 
 
@@ -22,11 +26,30 @@ class ResultsFragment : Fragment() {
         return inflater.inflate(
             R.layout.fragment_results, container, false
         )
+
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        buttonPlayAgain.setOnClickListener {
-
+        if(arguments == null){
+            Log.e( "ResultFragment", "arguments is null")
+            return
         }
+
+        buttonPlayAgain.setOnClickListener {
+            findNavController().navigate(R.id.action_global_startFragment)
+        }
+
+        val userChoice: RPS = arguments?.get(getString(R.string.UserChoice)) as RPS
+        textViewPlayerChoice.text = userChoice.name
+
+        var AIChoice: AIRPS = arguments?.get(getString(R.string.AIChoice)) as AIRPS
+        textViewAiChoice.text = AIChoice.name
+
+        PaintingTransfer.setOnClickListener{
+            findNavController().navigate(R.id.action_resultsFragment_to_creditsFragment)
+        }
+
+
     }
+
 }
