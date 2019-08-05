@@ -18,7 +18,7 @@ class Credits : Fragment() {
         // Inflate the layout for this fragment
 
         return inflater.inflate(
-            R.layout.fragment_start, container, false
+            R.layout.fragment_credit, container, false
         )
     }
 }

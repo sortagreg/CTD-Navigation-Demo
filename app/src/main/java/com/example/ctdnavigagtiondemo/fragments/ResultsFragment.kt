@@ -86,7 +86,7 @@ class ResultsFragment : Fragment() {
             findNavController().navigate(R.id.action_global_startFragment)
         }
         painting.setOnClickListener {
-            findNavController().navigate(R.id.action_global_startFragment)
+            findNavController().navigate(R.id.action_resultsFragment_to_credits2)
         }
 
     }
