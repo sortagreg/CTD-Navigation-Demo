@@ -4,6 +4,10 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
+repositories {
+    google()
+}
+
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.1"
@@ -38,4 +42,12 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
+    implementation "androidx.navigation:navigation-runtime-ktx:2.1.0-beta02"
+    implementation "androidx.navigation:navigation-fragment-ktx:2.1.0-beta02"
+    implementation "androidx.navigation:navigation-ui-ktx:2.1.0-beta02"
+
+    implementation 'androidx.fragment:fragment:1.1.0-rc03'
+    implementation 'androidx.fragment:fragment-ktx:1.1.0-rc03'
+
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
 }

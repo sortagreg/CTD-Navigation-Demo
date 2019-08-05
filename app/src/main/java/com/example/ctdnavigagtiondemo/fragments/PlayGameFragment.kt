@@ -5,9 +5,13 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.example.ctdnavigagtiondemo.R
+import com.example.ctdnavigagtiondemo.models.RPS
 import kotlinx.android.synthetic.main.fragment_play_game.*
+import kotlin.random.Random
 
 class PlayGameFragment : Fragment() {
 
@@ -24,14 +28,18 @@ class PlayGameFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         buttonRock.setOnClickListener {
-
+            navigate(RPS.ROCK)
         }
         buttonPaper.setOnClickListener {
-
+            navigate(RPS.PAPER)
         }
         buttonScissors.setOnClickListener {
-
+            navigate(RPS.SCISSORS)
         }
     }
 
+    private fun navigate(userChoice: RPS) {
+        val bundle = bundleOf(getString(R.string.USER_CHOICE) to userChoice)
+        findNavController().navigate(R.id.action_playGameFragment_to_resultsFragment,  bundle)
+    }
 }
