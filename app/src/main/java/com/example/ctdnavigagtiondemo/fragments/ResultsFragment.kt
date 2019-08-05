@@ -49,5 +49,9 @@ class ResultsFragment : Fragment() {
         buttonPlayAgain.setOnClickListener {
             findNavController().navigate(R.id.action_global_startFragment)
         }
+
+        buttonCredits.setOnClickListener {
+            findNavController().navigate(R.id.action_resultsFragment_to_creditsFragment)
+        }
     }
 }
