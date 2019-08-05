@@ -1,6 +1,5 @@
 package com.example.ctdnavigagtiondemo.fragments
 
-
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -10,12 +9,7 @@ import androidx.navigation.fragment.findNavController
 import com.example.ctdnavigagtiondemo.R
 import kotlinx.android.synthetic.main.fragment_start.*
 
-/**
- * A simple [Fragment] subclass.
- *
- */
-class StartFragment : Fragment() {
-
+class Credits : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -27,12 +21,5 @@ class StartFragment : Fragment() {
             R.layout.fragment_start, container, false
         )
     }
-
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        buttonPlayGame.setOnClickListener {
-            findNavController().navigate(R.id.action_startFragment_to_playGameFragment)
-
-        }
-    }
-
 }
+
