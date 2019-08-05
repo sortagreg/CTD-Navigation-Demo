@@ -25,6 +25,9 @@
         <argument
             android:name="@string/COMPUTER_CHOICE"
             app:argType="com.example.ctdnavigagtiondemo.rockpaperscissors.RPS" />
+        <action
+            android:id="@+id/action_resultsFragment_to_creditsFragment"
+            app:destination="@id/creditsFragment" />
     </fragment>
     <fragment
         android:id="@+id/playGameFragment"
