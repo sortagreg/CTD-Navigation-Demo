@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CTD Navigagtion Demo</string>
+    <string name="app_name">CTD Navigation Demo</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -12,8 +12,5 @@
     <string name="box_six">Box Six</string>
     <string name="box_seven">Box Seven</string>
     <string name="box_eight">Box Eight</string>
-    <string name="you_won">You won!</string>
-    <string name="you_lost">You lost!</string>
-    <string name="you_tied">You tied!</string>
 
 </resources>
