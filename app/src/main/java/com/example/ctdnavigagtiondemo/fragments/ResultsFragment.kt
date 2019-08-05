@@ -43,10 +43,10 @@ class ResultsFragment : Fragment() {
         }
     }
 
-    private fun findResult(player1: RPS, player2: RPS): String = when (player1) {
-        player2 -> getString(R.string.tied)
-        RPS.ROCK -> if (player2 == RPS.PAPER) getString(R.string.lost) else getString(R.string.won)
-        RPS.PAPER -> if (player2 == RPS.SCISSORS) getString(R.string.lost) else getString(R.string.won)
-        RPS.SCISSORS -> if (player2 == RPS.ROCK) getString(R.string.lost) else getString(R.string.won)
+    private fun findResult(a: RPS, aI: RPS): String = when (a) {
+        aI -> getString(R.string.tied)
+        RPS.ROCK -> if (aI == RPS.PAPER) getString(R.string.lost) else getString(R.string.won)
+        RPS.PAPER -> if (aI == RPS.SCISSORS) getString(R.string.lost) else getString(R.string.won)
+        RPS.SCISSORS -> if (aI == RPS.ROCK) getString(R.string.lost) else getString(R.string.won)
     }
 }
