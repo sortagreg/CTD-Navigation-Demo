@@ -30,25 +30,25 @@ class ResultsFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        if(arguments == null){
-            Log.e( "ResultFragment", "arguments is null")
-            return
-        }
+
 
         buttonPlayAgain.setOnClickListener {
             findNavController().navigate(R.id.action_global_startFragment)
         }
 
-        val userChoice: RPS = arguments?.get(getString(R.string.UserChoice)) as RPS
-        textViewPlayerChoice.text = userChoice.name
+        //val userChoice: RPS = arguments?.get(getString(R.string.UserChoice)) as RPS
+        //textViewPlayerChoice.text = userChoice.name
 
-        var AIChoice: AIRPS = arguments?.get(getString(R.string.AIChoice)) as AIRPS
-        textViewAiChoice.text = AIChoice.name
+        //val AIChoice: RPS = arguments?.get(getString(R.string.AIChoice)) as RPS
+        //textViewAiChoice.text = AIChoice.name
 
         PaintingTransfer.setOnClickListener{
             findNavController().navigate(R.id.action_resultsFragment_to_creditsFragment)
         }
 
+
+    }
+    fun messagePrint(){
 
     }
 

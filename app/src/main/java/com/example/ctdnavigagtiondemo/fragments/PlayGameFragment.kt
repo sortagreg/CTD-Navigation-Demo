@@ -28,7 +28,7 @@ class PlayGameFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        aiNavi()
+        AIChoice()
 
         buttonRock.setOnClickListener {
             navi(RPS.ROCK)
@@ -47,12 +47,26 @@ class PlayGameFragment : Fragment() {
         findNavController().navigate(R.id.action_playGameFragment_to_resultsFragment, bundle)
     }
 
-    private fun aiNavi(gamenum: AIRPS){
-        var Bundle = bundleOf(getString (R.string.AIChoice) to gamenum)
+    private fun aiNavi(gameChoice: RPS){
+        val bundle = bundleOf(getString (R.string.AIChoice) to gameChoice)
     }
 
     fun AIChoice(){
         var gamenum = Random.nextInt(0,2)
+        if(gamenum == 0){
+            var gameChoice = RPS.ROCK
+           aiNavi(gameChoice = RPS.ROCK)
+
+        }
+        if(gamenum == 1){
+            var gameChoice = RPS.PAPER
+            aiNavi(gameChoice = RPS.PAPER)
+        }
+        if(gamenum == 2){
+            var gameChoice = RPS.SCISSORS
+            aiNavi(gameChoice = RPS.SCISSORS)
+        }
+
     }
 
 }
