@@ -22,7 +22,7 @@
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:text="You Won!" />
+            tools:text= "You Win" />
 
         <TextView
             android:id="@+id/textView3"
@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:text="Your Choice"
-            app:layout_constraintBottom_toTopOf="@+id/buttonPlayAgain"
+            app:layout_constraintBottom_toTopOf="@+id/buttonCredits"
             app:layout_constraintEnd_toStartOf="@+id/textView4"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
@@ -70,13 +70,13 @@
             tools:text="Paper" />
 
         <Button
-            android:id="@+id/buttonPlayAgain"
+            android:id="@+id/buttonCredits"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
-            android:text="Play Again?"
+            android:text="Credits Page"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
