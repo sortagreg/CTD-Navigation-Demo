@@ -49,12 +49,16 @@ class ResultsFragment : Fragment()  {
             userChoice.name == "PAPER" && aiChoice == "ROCK"
         ) {
             "You Win"
-        } else {
+        } else if (userChoice.name == "SCISSORS" && aiChoice == "SCISSORS" ||
+            userChoice.name == "PAPER" && aiChoice == "PAPER" ||
+            userChoice.name == "ROCK" && aiChoice == "ROCK"){
+            "You Tied"
+        }
+
+        else {
             "You Lose"
         }
 
-
     }
-
 
 }
