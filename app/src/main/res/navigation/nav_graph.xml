@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    android:label="Welcome to RPS"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.ctdnavigagtiondemo.fragments.StartFragment"
+        android:label="Welcome to RPS"
+        tools:layout="@layout/fragment_start" >
+        <action
+            android:id="@+id/action_startFragment_to_playGameFragment"
+            app:destination="@id/playGameFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/playGameFragment"
+        android:name="com.example.ctdnavigagtiondemo.fragments.PlayGameFragment"
+        android:label="fragment_play_game"
+        tools:layout="@layout/fragment_play_game" >
+
+
+        <fragment
+            android:id="@+id/resultsFragment"
+            android:name="com.example.ctdnavigagtiondemo.fragments.ResultsFragment"
+            android:label="fragment_results"
+            tools:layout="@layout/fragment_results" />
+        <action
+            android:id="@+id/action_playGameFragment_to_resultsFragment4"
+            app:destination="@id/resultsFragment4" />
+
+    </fragment>
+    <action
+        android:id="@+id/action_global_startFragment"
+        app:destination="@id/startFragment"
+        app:popUpTo="@+id/startFragment" />
+    <fragment
+        android:id="@+id/resultsFragment4"
+        android:name="com.example.ctdnavigagtiondemo.fragments.ResultsFragment"
+        android:label="fragment_results"
+        tools:layout="@layout/fragment_results" >
+        <argument
+            android:name="@string/USER_CHOICE"
+            app:argType="com.example.ctdnavigagtiondemo.models.RPS" />
+        <action
+            android:id="@+id/action_resultsFragment4_to_creditsFragment"
+            app:destination="@id/creditsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/creditsFragment"
+        android:name="com.example.ctdnavigagtiondemo.fragments.CreditsFragment"
+        android:label="fragment_credits2"
+        tools:layout="@layout/fragment_credits2" />
+
+</navigation>
