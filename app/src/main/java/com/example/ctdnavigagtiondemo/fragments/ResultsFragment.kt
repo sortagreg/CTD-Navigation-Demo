@@ -37,6 +37,8 @@ class ResultsFragment : Fragment() {
         textViewResult.text = result
 
 
+        //i pushed yesterday but accidentally to master so here is the RPS project
+
         buttonPlayAgain.setOnClickListener {
             findNavController().navigate(R.id.action_global_startFragment)
         }
