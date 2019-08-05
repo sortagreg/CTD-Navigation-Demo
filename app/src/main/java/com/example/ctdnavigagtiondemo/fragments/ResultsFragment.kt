@@ -5,15 +5,17 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.ctdnavigagtiondemo.R
+import com.example.ctdnavigagtiondemo.databinding.FragmentResultsBinding
 import com.example.ctdnavigagtiondemo.models.RPS
-import kotlinx.android.synthetic.main.fragment_results.*
 
 
 class ResultsFragment : Fragment() {
 
+    private lateinit var binding: FragmentResultsBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -21,26 +23,29 @@ class ResultsFragment : Fragment() {
     ): View? {
 
         // Inflate the layout for this fragment
-        return inflater.inflate(
+        binding = DataBindingUtil.inflate(
+            inflater,
             R.layout.fragment_results, container, false
         )
-    }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         val userChoice: RPS = arguments?.get(getString(R.string.USER_CHOICE)) as RPS
         val aiChoice = RPS.values().random()
         val result = findResult(userChoice, aiChoice)
 
-        textViewPlayerChoice.text = userChoice.name
-        textViewAiChoice.text = aiChoice.name
-        textViewResult.text = result
+        binding.apply {
+            textViewPlayerChoice.text = userChoice.name
+            textViewAiChoice.text = aiChoice.name
+            textViewResult.text = result
 
-        buttonPlayAgain.setOnClickListener {
-            findNavController().navigate(R.id.action_global_startFragment)
+            buttonPlayAgain.setOnClickListener {
+                findNavController().navigate(R.id.action_global_startFragment)
+            }
+            buttonPainting.setOnClickListener {
+                findNavController().navigate(R.id.action_resultsFragment_to_paintingFragment)
+            }
         }
-        buttonPainting.setOnClickListener {
-            findNavController().navigate(R.id.action_resultsFragment_to_paintingFragment)
-        }
+
+        return binding.root
     }
 
     private fun findResult(player1: RPS, player2: RPS): String = when (player1) {

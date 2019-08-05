@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-
-    <androidx.constraintlayout.widget.ConstraintLayout
+<layout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".fragments.PlayGameFragment">
 
-        <!-- TODO: Update blank fragment layout -->
         <TextView
             android:id="@+id/textViewSelectOption"
             style="@style/TitleText"
@@ -23,35 +22,36 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/buttonRock"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="@string/rock"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/buttonPaper"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewSelectOption" />
+        <Button
+            android:id="@+id/buttonRock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/rock"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/buttonPaper"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewSelectOption" />
 
-    <Button
-        android:id="@+id/buttonPaper"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/paper"
-        app:layout_constraintEnd_toStartOf="@+id/buttonScissors"
-        app:layout_constraintStart_toEndOf="@+id/buttonRock"
-        app:layout_constraintTop_toTopOf="@+id/buttonRock" />
+        <Button
+            android:id="@+id/buttonPaper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/paper"
+            app:layout_constraintEnd_toStartOf="@+id/buttonScissors"
+            app:layout_constraintStart_toEndOf="@+id/buttonRock"
+            app:layout_constraintTop_toTopOf="@+id/buttonRock" />
 
-    <Button
-        android:id="@+id/buttonScissors"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="@dimen/margin_small"
-        android:text="@string/scissors"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/buttonPaper"
-        app:layout_constraintTop_toTopOf="@+id/buttonPaper" />
+        <Button
+            android:id="@+id/buttonScissors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_small"
+            android:text="@string/scissors"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/buttonPaper"
+            app:layout_constraintTop_toTopOf="@+id/buttonPaper" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
