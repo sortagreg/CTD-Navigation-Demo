@@ -13,9 +13,6 @@
         <action
             android:id="@+id/action_startFragment_to_playGameFragment"
             app:destination="@id/playGameFragment" />
-        <action
-            android:id="@+id/action_startFragment_to_pietFragment"
-            app:destination="@id/pietFragment" />
     </fragment>
     <fragment
         android:id="@+id/resultsFragment"
@@ -43,7 +40,7 @@
         app:destination="@id/startFragment"
         app:popUpTo="@+id/startFragment" />
     <fragment
-        android:id="@+id/pietFragment"
-        android:name="com.example.ctdnavigagtiondemo.fragments.PietFragment"
-        android:label="PietFragment" />
+        android:id="@+id/creditsFragment"
+        android:name="com.example.ctdnavigagtiondemo.fragments.CreditsFragment"
+        android:label="CreditsFragment" />
 </navigation>

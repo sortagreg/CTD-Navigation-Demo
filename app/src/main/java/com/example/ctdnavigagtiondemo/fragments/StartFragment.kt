@@ -34,10 +34,6 @@ class StartFragment : Fragment() {
         buttonPlayGame.setOnClickListener {
             findNavController().navigate(R.id.action_startFragment_to_playGameFragment)
         }
-
-        buttonPiet.setOnClickListener {
-            findNavController().navigate(R.id.action_startFragment_to_pietFragment)
-        }
     }
 
 }
