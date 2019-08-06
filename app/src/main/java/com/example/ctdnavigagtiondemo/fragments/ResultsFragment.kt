@@ -29,6 +29,8 @@ class ResultsFragment : Fragment() {
 
     }
 
+
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
 
@@ -36,11 +38,55 @@ class ResultsFragment : Fragment() {
             findNavController().navigate(R.id.action_global_startFragment)
         }
 
-        //val userChoice: RPS = arguments?.get(getString(R.string.UserChoice)) as RPS
-        //textViewPlayerChoice.text = userChoice.name
+        val userChoice: RPS = arguments?.get(getString(R.string.UserChoice)) as RPS
+        textViewPlayerChoice.text = userChoice.name
+        var gamenum = Random.nextInt(1,3)
+        if(gamenum == 1)
+        {
+            var gameChoice = RPS.ROCK
+            textViewAiChoice.text = gameChoice.name
+            if (userChoice == RPS.ROCK){
+                R.string.gameResult = "We Tied"
+            }
+            if(userChoice == RPS.PAPER){
+                R.string.gameResult = "You Win"
+            }
+            if(userChoice == RPS.SCISSORS){
+                R.string.gameResult = "I win"
+            }
+        }
+        if(gamenum == 2)
+        {
+            var gameChoice = RPS.PAPER
+            textViewAiChoice.text = gameChoice.name
+            if (userChoice == RPS.ROCK){
+                R.string.gameResult = "I win!"
+            }
+            if(userChoice == RPS.PAPER){
+                R.string.gameResult = "We Tied!"
+            }
+            if(userChoice == RPS.SCISSORS){
+                R.string.gameResult = "You win!"
+            }
+        }
+        if(gamenum == 3)
+        {
+            var gameChoice = RPS.SCISSORS
+            textViewAiChoice.text = gameChoice.name
+            if (userChoice == RPS.ROCK){
+                R.string.gameResult = "You Win!"
+            }
+            if(userChoice == RPS.PAPER){
+                R.string.gameResult = "I Win!"
+            }
+            if(userChoice == RPS.SCISSORS){
+                R.string.gameResult = "We Tied!"
+            }
+        }
 
-        //val AIChoice: RPS = arguments?.get(getString(R.string.AIChoice)) as RPS
-        //textViewAiChoice.text = AIChoice.name
+
+
+
 
         PaintingTransfer.setOnClickListener{
             findNavController().navigate(R.id.action_resultsFragment_to_creditsFragment)
@@ -48,8 +94,7 @@ class ResultsFragment : Fragment() {
 
 
     }
-    fun messagePrint(){
 
-    }
+
 
 }

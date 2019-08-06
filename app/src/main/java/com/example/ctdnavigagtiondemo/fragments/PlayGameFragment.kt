@@ -28,16 +28,19 @@ class PlayGameFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        AIChoice()
+
 
         buttonRock.setOnClickListener {
             navi(RPS.ROCK)
+            var userChoice = 1
         }
         buttonPaper.setOnClickListener {
             navi(RPS.PAPER)
+            var userChoice = 2
         }
         buttonScissors.setOnClickListener {
             navi(RPS.SCISSORS)
+            var userChoice = 3
         }
     }
 
@@ -46,27 +49,4 @@ class PlayGameFragment : Fragment() {
 
         findNavController().navigate(R.id.action_playGameFragment_to_resultsFragment, bundle)
     }
-
-    private fun aiNavi(gameChoice: RPS){
-        val bundle = bundleOf(getString (R.string.AIChoice) to gameChoice)
-    }
-
-    fun AIChoice(){
-        var gamenum = Random.nextInt(0,2)
-        if(gamenum == 0){
-            var gameChoice = RPS.ROCK
-           aiNavi(gameChoice = RPS.ROCK)
-
-        }
-        if(gamenum == 1){
-            var gameChoice = RPS.PAPER
-            aiNavi(gameChoice = RPS.PAPER)
-        }
-        if(gamenum == 2){
-            var gameChoice = RPS.SCISSORS
-            aiNavi(gameChoice = RPS.SCISSORS)
-        }
-
-    }
-
 }
