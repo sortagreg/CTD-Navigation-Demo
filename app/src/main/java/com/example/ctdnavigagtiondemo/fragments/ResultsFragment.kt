@@ -44,6 +44,12 @@ class ResultsFragment : Fragment()  {
         buttonCredits.setOnClickListener {
             findNavController().navigate(R.id.action_resultsFragment_to_creditsFragment)
         }
+
+        buttonPlayAgain.setOnClickListener {
+            findNavController().navigate(R.id.action_global_startFragment)
+        }
+
+
         textViewResult.text = if (userChoice.name == "ROCK" && aiChoice == "SCISSORS" ||
             userChoice.name == "SCISSORS" && aiChoice == "PAPER" ||
             userChoice.name == "PAPER" && aiChoice == "ROCK"
