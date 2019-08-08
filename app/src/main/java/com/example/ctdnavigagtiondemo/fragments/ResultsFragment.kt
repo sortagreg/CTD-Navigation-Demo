@@ -14,6 +14,8 @@ import kotlinx.android.synthetic.main.fragment_results.*
 
 class ResultsFragment : Fragment() {
 
+    val x = listOf("ROCK", "PAPER", "SCISSORS")
+    val y = x.shuffled().take(1)[0]
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -28,23 +30,20 @@ class ResultsFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         val userChoice: RPS = arguments?.get("user_choice") as RPS
-        val aiChoice: RPS = arguments?.get("ai_choice") as RPS
+        val aiChoice: String = y
 
 
         textViewPlayerChoice.text = userChoice.name
-        textViewAiChoice.text = aiChoice.name
+        textViewAiChoice.text = aiChoice
 
         buttonPlayAgain.setOnClickListener {
             findNavController().navigate(R.id.action_global_startFragment)
         }
 
 
-        private fun findResult(a: RPS, aI: RPS): String = when (a) {
-            aI -> getString(R.string.draw)
-            RPS.ROCK -> if (aI == RPS.PAPER) getString(R.string.lost) else getString(R.string.won)
-            RPS.PAPER -> if (aI == RPS.SCISSORS) getString(R.string.lost) else getString(R.string.won)
-            RPS.SCISSORS -> if (aI == RPS.ROCK) getString(R.string.lost) else getString(R.string.won)
-        }
+//        private fun findResult(a: RPS, aI: RPS): String = when (a) {
+//
+//        }
 
     }
 }
